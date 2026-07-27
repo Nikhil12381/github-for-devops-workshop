@@ -7,5 +7,22 @@
 7. git remote -v : This is used to see the remotes (your local repos on the Github Platform ) including Remote names like origin, fetch URL, push URL
 8. git remote set-url origin <https://accesstoken@github.com/pathtorepo> : This is used to update the URL for the existing remote named origin (like when you need to replace old access token or repo path)
 9. git push origin master : this is used to upload your local commits (changes) to a remote repo, origin is the name of the remote repo and master is the branch
-
+10. git branch : this is to view all branches are your branch 
+11. git branch <branch_name> : This is to create a new branch 
+12. git switch <branch_name> : This is to switch to a different branch
+13. git log : This will show "HEAD" (latest commit made in the repo and by who)
 These are new changes
+Branchs: 
+If in a single repo you create different copies of the same code, this is called branches 
+The root branch on the local is called "Master"
+The root branch on GitHub is called main
+Every branch on Git maintains its own copy of files which are not related to each other
+
+strategies of branching :
+- the main code is in Master branch 
+- the copy of same code is in staging / UAT branch 
+- the copy of same code is in dev branch - This is where devloping happens 
+- when a new devloper is working on the Dev branch , he will create a new "Feature branch" to work 
+- How to know the latest commit (work) done in the repo ? It is represented as "HEAD"
+- 
+
