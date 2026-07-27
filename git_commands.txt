@@ -1,0 +1,9 @@
+1. git init : Used to initialize empty git repo
+2. git status : Used to see git version control system status
+3. git add : Used to push the file from "Untracked" to "Staged" version 
+4. git commit -m "Add <filename>" : Used to push file from "Staged" to "Tracked" (Version Control) stage
+5. git restore <filename> : Used to restore deleted tracked file to the Tracked (Version Control) stage.
+6. git remote add origin <https://accesstoken@github.com/pathtorepo> This is to is used to link your local repo to the GitHub repo URL so you can push/pull using the remote named origin
+7. git remote -v : This is used to see the remotes (your local repos on the Github Platform ) including Remote names like origin, fetch URL, push URL
+8. git remote set-url origin <https://accesstoken@github.com/pathtorepo> : This is used to update the URL for the existing remote named origin (like when you need to replace old access token or repo path)
+9. git push origin master : this is used to upload your local commits (changes) to a remote repo, origin is the name of the remote repo and master is the branch
