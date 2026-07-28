@@ -27,4 +27,4 @@ strategies of branching :
 
 Pull Request:
 - this is used to merge changes made in one branch to other branch (example do chnages in dev branch, submit pull request from dev --> master, accept pull request and the merge will be done and you will be able to see changes made in dev visible in the master branch)
-
+- this is th enext update
